@@ -1,0 +1,10 @@
+{
+  "name": "izzia-raffaele",
+  "version": "0.0.1",
+  "description": "sito web irweb",
+  "author": "Luciano Izzia <luciano.izzia@gmai.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
