@@ -3,7 +3,12 @@
     background-color: #e5e5e5;
 
     .tabella {
+        padding: 20px 15px;
         background-color: #fff;
-        margin: 30px;
+        border-radius: 4px;
+
+        h3 {
+            margin-top: 0;
+        }
     }
 }
