@@ -1,19 +1,20 @@
 .header {
-    height: 400px;
-
     .navbar-nav {
         margin-right: 15px;
     }
 
-    .header-sfondo {
-        height: 100%;
-        background-image: url("http://smartly.it/wp-content/uploads/slide-web-design-sfondo.jpg");
+    .jumbotron {
+        background-image: url("http://media.gettyimages.com/photos/young-boy-writes-math-equations-on-chalkboard-picture-id168351254?k=6&m=168351254&s=170667a&w=0&h=BUPBlk9ab7Md_NODpMRu4Nhe75W57z7TM-rY7d418VY=");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        padding-top: 131px;
+        padding-bottom: 210px;
+        margin: 0;
 
-        .testo-sfondo {
-            padding-top: 150px;
+        h1,
+        p {
+            color: $bianco;
         }
     }
 }

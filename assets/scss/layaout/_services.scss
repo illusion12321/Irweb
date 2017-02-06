@@ -1,14 +1,35 @@
 .services {
-    height: 474px;
-    background-color: #e5e5e5;
+    .jumbotron {
+        background-image: url("http://www.boorp.com/sfondi_gratis_desktop_pc/sfondi_gratis/sfondi_ipad_2/yellow_black_sfondo_ipad.jpg");
+        background-position: center center;
+        background-size: cover;
+        margin: 0;
+
+        h2 {
+            color: $bianco;
+        }
+    }
 
     .tabella {
         padding: 20px 15px;
-        background-color: #fff;
+        background-color: $grigio-chiaro;
+        width: 33.3%;
+        border: 1px solid $navbar-app-border;
+        float: left;
         border-radius: 4px;
+        margin-top: 20px;
 
-        h3 {
-            margin-top: 0;
+        > h3 {
+            color: $navbar-app-border;
+        }
+    }
+    @media screen and (min-width: $screen-sm-min) {
+        .jumbotron {
+            padding-bottom: ($jumbotron-padding * 1.6 ) + 100;
+        }
+
+        .tabella {
+            margin-top: -100px;
         }
     }
 }

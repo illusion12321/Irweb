@@ -1,6 +1,10 @@
 $vendor-base-path: "../../../node-modules"; // App navbar links
 $navbar-app-bg: rgba($navbar-inverse-bg, 0.2);
 $navbar-app-border: darken($navbar-app-bg, 10%); // Inverted navbar links
-$navbar-app-link-color: lighten($gray-light, 50%);
+$navbar-app-link-color: darken($gray-light, 50%);
 $navbar-app-link-hover-bg: rgba($navbar-inverse-bg, 0.3);
 $navbar-app-link-active-bg: rgba($navbar-inverse-bg, 0.5);
+$navbar-trasparent-bg: rgba($navbar-inverse-bg, 0.0); // transparent navbar
+// colori
+$grigio-chiaro: #e5e5e5;
+$bianco: #fff;

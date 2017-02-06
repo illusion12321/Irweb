@@ -1,7 +1,7 @@
 .navbar-app {
     @extend .navbar-inverse;
-    background-color: $navbar-app-bg;
     border-color: $navbar-app-border;
+    background-color: $navbar-trasparent-bg;
 
     .navbar-brand {
         color: $navbar-inverse-brand-color;
